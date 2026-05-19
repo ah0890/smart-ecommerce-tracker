@@ -1,0 +1,17 @@
+2026-05-20 00:02:18 | INFO     | scraper.manager | Running scraper: amazon
+2026-05-20 00:02:18 | INFO     | scraper.base_scraper | [amazon] Fetching: https://www.amazon.com/s?k=iPhone+13&ref=nb_sb_noss
+2026-05-20 00:02:18 | DEBUG    | utils.http_client | Sleeping 2.8s before fetching: https://www.amazon.com/s?k=iPhone+13&ref=nb_sb_noss
+2026-05-20 00:02:22 | DEBUG    | utils.http_client | GET https://www.amazon.com/s?k=iPhone+13&ref=nb_sb_noss → 200 (913801 bytes)
+2026-05-20 00:02:23 | INFO     | parsers.amazon_parser | Amazon parser found 16 raw cards.
+2026-05-20 00:02:23 | INFO     | parsers.amazon_parser | Amazon parser extracted 0 valid products.
+2026-05-20 00:02:23 | INFO     | scraper.base_scraper | [amazon] Parsed 0 products.
+2026-05-20 00:02:23 | INFO     | scraper.manager |   → 0 products from amazon
+2026-05-20 00:02:23 | INFO     | scraper.manager | Running scraper: daraz
+2026-05-20 00:02:23 | INFO     | scraper.base_scraper | [daraz] Fetching: https://www.daraz.pk/catalog/?q=iPhone+13&_keyori=ss&from=input&spm=a2a0e.11779170.search.d_go
+2026-05-20 00:02:23 | DEBUG    | utils.http_client | Sleeping 2.7s before fetching: https://www.daraz.pk/catalog/?q=iPhone+13&_keyori=ss&from=input&spm=a2a0e.11779170.search.d_go
+2026-05-20 00:02:26 | DEBUG    | utils.http_client | GET https://www.daraz.pk/catalog/?q=iPhone+13&_keyori=ss&from=input&spm=a2a0e.11779170.search.d_go → 200 (57171 bytes)
+2026-05-20 00:02:26 | DEBUG    | parsers.daraz_parser | Daraz HTML fallback found 0 cards.
+2026-05-20 00:02:26 | INFO     | parsers.daraz_parser | Daraz HTML parser extracted 0 products.
+2026-05-20 00:02:26 | INFO     | scraper.base_scraper | [daraz] Parsed 0 products.
+2026-05-20 00:02:26 | INFO     | scraper.manager |   → 0 products from daraz
+2026-05-20 00:02:26 | INFO     | scraper.manager | Total: 0 products (0 after deduplication).

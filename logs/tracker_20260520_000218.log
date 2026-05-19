@@ -1,0 +1,9 @@
+2026-05-20 00:02:18 | INFO     | main | ============================================================
+2026-05-20 00:02:18 | INFO     | main | E-commerce Tracker started
+2026-05-20 00:02:18 | INFO     | main |   Keyword   : iPhone 13
+2026-05-20 00:02:18 | INFO     | main |   Platforms : amazon, daraz
+2026-05-20 00:02:18 | INFO     | main |   Max/site  : 15
+2026-05-20 00:02:18 | INFO     | main |   Formats   : csv, excel
+2026-05-20 00:02:18 | INFO     | main |   Dry run   : False
+2026-05-20 00:02:18 | INFO     | main | ============================================================
+2026-05-20 00:02:26 | WARNING  | main | No products found. Exiting.

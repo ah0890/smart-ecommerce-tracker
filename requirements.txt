@@ -1,0 +1,17 @@
+# E-commerce Tracker — Python dependencies
+# Install with: pip install -r requirements.txt
+
+# HTTP & HTML parsing
+requests==2.32.3
+beautifulsoup4==4.12.3
+lxml==5.2.2                   # faster BS4 parser (optional but recommended)
+
+# Data processing & export
+pandas==2.2.2
+openpyxl==3.1.4               # Excel (.xlsx) read/write
+
+# Web framework (bonus Flask API)
+flask==3.0.3
+
+# Retry / resilience (already bundled with requests, listed for clarity)
+urllib3==2.2.1
